@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pandey GYM</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+
+
+<style>
+    /* CSS Reset  */
+    body{
+        font-family: 'Baloo Bhai';font-size: 22px;
+      
+      color: azure;
+      margin: 0px;  
+      padding: 0px;
+      background: url('img/gym1.jpg') ;
+      background-size: 100% 150%;
+    }
+    .left{
+        display: inline-block;
+        
+        
+        position: absolute;
+        left: 34px;
+        top: 0px;
+        margin: 14px;
+    }
+    .mid{
+       
+        border-radius: 10px;
+        
+        display: block;
+        width: 30%;
+        margin: 20px auto;
+        
+        
+        
+        
+        
+    }
+    .right{
+        position: absolute;
+        display: inline;
+        right: 34px; 
+        top: 0px;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 20px;
+        
+        
+    }
+    .navbar li a{
+        color: wheat;
+        text-decoration: none;
+        padding: 14px 23px; 
+        
+        
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: rgb(208, 32, 97);
+    }
+    .left img{
+        width: 150px;
+
+    }
+    .left div{
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn{
+       
+
+        margin: 15px 9px;
+        color: rgb(11, 12, 12);
+        padding: 4px 6px;
+        border-radius: 5px;
+        background-color: rgb(120, 240, 240);
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: red;
+    }
+    .container{
+        border: 2px solid yellow;
+        margin: 160px 50px;
+        padding: 75px;
+        width: 30%;
+        border-radius: 30px;
+        background-image: url("img/gym2.jpg");
+    }
+    .form input{
+        text-align: center;
+        display: block;
+        width: 53%;
+        padding: 6px;
+        margin: 11px auto;
+        border: 2px solid black;
+        font-size: 20px;
+        border-radius: 5px;
+        font-family: 'Baloo Bhai';font-size: 22px;
+
+       
+        
+        
+        
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container buttom{
+        display: block;
+        width: 28;
+        margin: auto;
+        
+    }
+    .Pandey{
+        color: black;
+        background-color: rgb(238, 238, 210);
+    }
+    
+    
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="img/logo.webp" alt="">
+            <div class="Pandey">Pandey GYM</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Fitnesss </a></li>
+                <li><a href="#">Calculator </a></li>
+                <li><a href="#">Contact Us </a></li>
+            </ul>
+        </div>
+        <div class="right">
+        <button class="btn">Call Us</button> <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+    
+        <h1>Join the best Gym od Baroda Now</h1>
+        <form action="notice.php">
+            <div class="form">
+            <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+            <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+            <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+            <input type="text" name="" placeholder="Enter your name">
+            
+            </div>
+            <button class="btn">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>
